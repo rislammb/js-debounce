@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #3e3e3e;
+  color: #f3f3f3;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.container #btn {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color: inherit;
+  font-size: inherit;
+  padding: 7px 13px;
+  outline: none;
+  border: none;
+}
+
+.container #log {
+  color: lightgreen;
+  display: block;
+}
